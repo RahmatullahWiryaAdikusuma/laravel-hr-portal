@@ -20,11 +20,7 @@ Sistem Informasi Rekrutmen & Seleksi Pegawai
 Sistem manajemen rekrutmen modern yang memudahkan perusahaan dalam mengelola lowongan pekerjaan dan proses seleksi pelamar secara efisien.
 </p>
 
-<!-- GANTI LINK GAMBAR DI BAWAH INI DENGAN SCREENSHOT ASLI APLIKASIMU NANTI -->
-
-<!-- Contoh: src="docs/dashboard.png" -->
-
-<img src="https://www.google.com/search?q=https://placehold.co/800x400/4361ee/ffffff%3Ftext%3DDashboard%2BPreview" alt="Dashboard Preview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+ 
 
 </div>
 
