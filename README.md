@@ -22,6 +22,8 @@ Sistem manajemen rekrutmen modern yang memudahkan perusahaan dalam mengelola low
 
 <!-- GANTI LINK GAMBAR DI BAWAH INI DENGAN SCREENSHOT ASLI APLIKASIMU NANTI -->
 
+<!-- Contoh: src="docs/dashboard.png" -->
+
 <img src="https://www.google.com/search?q=https://placehold.co/800x400/4361ee/ffffff%3Ftext%3DDashboard%2BPreview" alt="Dashboard Preview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
@@ -133,7 +135,7 @@ Admin
 
 admin@test.com
 
-password
+password123
 
 Full Akses, CRUD, Approval
 
@@ -141,7 +143,7 @@ Guest
 
 guest@test.com
 
-password
+password123
 
 Lihat Lowongan, Melamar
 
@@ -156,5 +158,5 @@ Database: MySQL
 Font: Plus Jakarta Sans & Inter
 
 <div align="center">
-<small>Dibuat dengan ❤️ untuk Tes Teknis Laravel 2025</small>
+<small>Dibuat dengan  Laravel </small>
 </div>
