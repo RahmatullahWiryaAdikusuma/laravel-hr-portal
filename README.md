@@ -46,28 +46,6 @@ Katalog Lowongan: Melihat daftar lowongan pekerjaan yang tersedia.
 
 Form Lamaran: Mengisi biodata dan mengunggah CV (PDF).
 
-Validasi Data: Validasi input yang aman dan user-friendly.
-
-📸 Tampilan Aplikasi
-
-Dashboard Admin
-
-Form Pelamar
-
-<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DDashboard" alt="Dashboard" width="400"/>
-
-<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DForm%2BApply" alt="Form Apply" width="400"/>
-
-Laporan & Approval
-
-Manajemen Lowongan
-
-<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DApproval" alt="Approval" width="400"/>
-
-<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DCRUD%2BMaster" alt="Master Data" width="400"/>
-
-(Tip: Ganti link gambar di atas dengan screenshot asli aplikasimu agar lebih menarik!)
-
 ⚙️ Panduan Instalasi (Local)
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
