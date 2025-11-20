@@ -1,85 +1,125 @@
-🏢 HR Portal (Sistem Penerimaan Pegawai)
+<div align="center">
 
-Sistem manajemen rekrutmen sederhana yang dibangun menggunakan Laravel 12 dan Bootstrap 5. Aplikasi ini memungkinkan pelamar untuk melamar pekerjaan dan Admin untuk mengelola lowongan serta melakukan seleksi.
+🏢 HR Portal
 
-🚀 Fitur Utama
+Sistem Informasi Rekrutmen & Seleksi Pegawai
 
-👥 Role: Guest (Pelamar)
+<p>
+<a href="https://laravel.com">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Laravel-12.x-FF2D20%3Fstyle%3Dfor-the-badge%26logo%3Dlaravel%26logoColor%3Dwhite" alt="Laravel" />
+</a>
+<a href="https://getbootstrap.com">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Bootstrap-5-7952B3%3Fstyle%3Dfor-the-badge%26logo%3Dbootstrap%26logoColor%3Dwhite" alt="Bootstrap" />
+</a>
+<a href="https://www.php.net">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/PHP-8.2-777BB4%3Fstyle%3Dfor-the-badge%26logo%3Dphp%26logoColor%3Dwhite" alt="PHP" />
+</a>
+</p>
 
-Melihat daftar lowongan pekerjaan yang tersedia.
+<p>
+Sistem manajemen rekrutmen modern yang memudahkan perusahaan dalam mengelola lowongan pekerjaan dan proses seleksi pelamar secara efisien.
+</p>
 
-Melamar pekerjaan dengan mengunggah CV (PDF).
+<!-- GANTI LINK GAMBAR DI BAWAH INI DENGAN SCREENSHOT ASLI APLIKASIMU NANTI -->
 
-Form lamaran yang valid dan aman.
+<img src="https://www.google.com/search?q=https://placehold.co/800x400/4361ee/ffffff%3Ftext%3DDashboard%2BPreview" alt="Dashboard Preview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-🛡️ Role: Admin (HRD)
+</div>
 
-Dashboard Informatif: Ringkasan statistik pelamar dan kuota per departemen.
+🌟 Fitur Utama
 
-Master Data: CRUD (Create, Read, Update, Delete) untuk Lowongan dan Departemen.
+Aplikasi ini memiliki dua peran pengguna dengan hak akses yang berbeda:
 
-Approval System: Menerima atau menolak pelamar.
+👨‍💼 Admin (HRD)
 
-Reporting: Laporan otomatis sisa kuota dan status penerimaan.
+Dashboard Informatif: Statistik visual jumlah pelamar, status penerimaan, dan kuota departemen.
 
-Cetak Laporan: Fitur print report ke PDF.
+Manajemen Data Master: CRUD (Create, Read, Update, Delete) data Lowongan & Departemen.
 
-🛠️ Teknologi yang Digunakan
+Sistem Seleksi: Fitur Approval (Terima/Tolak) lamaran masuk.
 
-Framework: Laravel 12
+Laporan Otomatis: Rekapitulasi sisa kuota dan status pelamar yang dapat dicetak.
 
-Database: MySQL
+UI Modern: Tampilan Sidebar responsif dan desain yang bersih.
 
-Frontend: Blade Templates + Bootstrap 5
+🧑‍💻 Guest (Pelamar)
 
-Styling: Custom CSS (Modern Clean UI)
+Katalog Lowongan: Melihat daftar lowongan pekerjaan yang tersedia.
 
-⚙️ Cara Instalasi (Run Locally)
+Form Lamaran: Mengisi biodata dan mengunggah CV (PDF).
 
-Ikuti langkah ini untuk menjalankan proyek di komputer Anda:
+Validasi Data: Validasi input yang aman dan user-friendly.
 
-Clone Repositori
+📸 Tampilan Aplikasi
+
+Dashboard Admin
+
+Form Pelamar
+
+<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DDashboard" alt="Dashboard" width="400"/>
+
+<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DForm%2BApply" alt="Form Apply" width="400"/>
+
+Laporan & Approval
+
+Manajemen Lowongan
+
+<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DApproval" alt="Approval" width="400"/>
+
+<img src="https://www.google.com/search?q=https://placehold.co/600x400/eaf0ff/4361ee%3Ftext%3DCRUD%2BMaster" alt="Master Data" width="400"/>
+
+(Tip: Ganti link gambar di atas dengan screenshot asli aplikasimu agar lebih menarik!)
+
+⚙️ Panduan Instalasi (Local)
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
+
+1. Clone Repositori
 
 git clone [https://github.com/RahmatullahWiryaAdikusuma/laravel-hr-portal.git](https://github.com/RahmatullahWiryaAdikusuma/laravel-hr-portal.git)
 cd laravel-hr-portal
 
 
-Install Dependencies
+2. Install Dependencies
+
+Pastikan Anda sudah menginstall Composer dan Node.js.
 
 composer install
+npm install && npm run build
 
 
-Setup Environment
+3. Konfigurasi Environment
+
 Salin file .env.example menjadi .env:
 
 cp .env.example .env
 
 
-Buka file .env dan sesuaikan konfigurasi database:
+Buka file .env dan sesuaikan pengaturan database Anda:
 
-DB_DATABASE=nama_database_anda
+DB_DATABASE=hr_portal_db
 DB_USERNAME=root
 DB_PASSWORD=
 
 
-Generate Key & Migrasi
+4. Generate Key & Migrasi Database
 
 php artisan key:generate
 php artisan migrate:fresh --seed
 
 
-(Perintah --seed akan otomatis membuat akun Admin & Data Dummy)
+Catatan: Perintah --seed sangat penting karena akan membuat akun Admin otomatis dan data dummy pelamar.
 
-Jalankan Server
+5. Jalankan Server
 
 php artisan serve
 
 
-Buka browser di: http://localhost:8000
+Akses aplikasi di browser melalui: http://localhost:8000
 
-🔑 Akun Demo
+🔐 Akun Demo
 
-Gunakan akun ini untuk login:
+Gunakan kredensial berikut untuk mencoba aplikasi:
 
 Role
 
@@ -87,14 +127,34 @@ Email
 
 Password
 
+Akses
+
 Admin
 
 admin@test.com
 
-password123
+password
+
+Full Akses, CRUD, Approval
 
 Guest
 
 guest@test.com
 
-password123
+password
+
+Lihat Lowongan, Melamar
+
+🛠️ Teknologi
+
+Backend: Laravel 12
+
+Frontend: Blade, Bootstrap 5, Custom CSS
+
+Database: MySQL
+
+Font: Plus Jakarta Sans & Inter
+
+<div align="center">
+<small>Dibuat dengan ❤️ untuk Tes Teknis Laravel 2025</small>
+</div>
